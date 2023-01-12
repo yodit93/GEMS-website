@@ -11,52 +11,32 @@
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-  <header class="header">
-    <nav class="first-nav">
-      <ul class="nav1">
-        <li><img class="fb" src="./images/facebook.png" alt="facebook logo"></li>
-        <li><img class="twiter" src="./images/twiter.png" alt="twiter logo"></li>
-        <li><a href="#">Amharic</a></li>
-        <li><a href="#">My Page</a></li>
-        <li><a href="#">Logout</a></li>
-      </ul>
-    </nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-md">
-        <a class="navbar-brand" href="#">
-          <span class="nav-prog-logo">
-            <img class="logo-img" src="./images/logo.png" alt="programe logo">
-            <!-- <p class="nav-desc">EMS 2023</p> -->
-          </span>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Programe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" active>Join</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" active>Sponser</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" active>News</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" active>GE Campaign</a>
-            </li>
-          </ul> 
-        </div>
-      </div>
-    </nav>
-    <!-- <button class="menu-btn"><img class="menu-icon"src="./images/menu_FILL0_wght400_GRAD0_opsz48 (1).svg" alt="Mobile menu"></button> -->
+  <header>
+    <section class="over-nav">
+      <nav class="first-nav">
+        <ul class="nav1">
+          <li><img class="fb" src="./images/Facebook_f_logo_(2019).svg.webp" alt="facebook logo"></li>
+          <li><img class="twiter" src="./images/twiter.png" alt="twiter logo"></li>
+          <li><a href="#" class="nav1-item">Amharic</a></li>
+          <li><a href="#" class="nav1-item">My Page</a></li>
+          <li><a href="#" class="nav1-item">Logout</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="main-nav">
+      <a class="menu-link" href="#"><img src="./images/menu_FILL0_wght400_GRAD0_opsz48 (1).svg" alt=""></a>
+      <nav class="second-nav">
+        <a class="logo-link" href="./index.html"><img class="logo-img" src="./images/logo.png" alt="logo"></a>
+        <ul class="nav2">
+          <li><a href="./about.html" class="menu-item text-red">About</a></li>
+          <li> <a href="./index.html#program" class="menu-item">Program </a></li>
+          <li> <a href="#" class="menu-item">Join</a></li>
+          <li> <a href="#" class="menu-item">Sponsor</a></li>
+          <li> <a href="#" class="menu-item">News</a></li>
+          <li> <a href="#" class="menu-item" id="campaign">GEM Campaign</a></li>
+        </ul>
+      </nav>
+    </section>
   </header>
    <main>
     <section class="home">
@@ -80,29 +60,31 @@
       <div class="cont-flex-cont">
         <div class="cont-flex">
           <img class="prog-img" src="./images/opening.png" alt="Opening ceremony icon">
-          <p class="prog-title">Opening ceremony</p>
-          <p class="prog-desc">Detail introduction about the programme and message from the programme coordinators.</p>
+          <p class="prog-title">Opening</p>
+          <p class="prog-desc">Introduction about the programme and message from the coordinators.</p>
         </div>
         <div class="cont-flex">
           <img class="prog-img" src="./images/motivational-speech.png" alt="">
-          <p class="prog-title">Motivational speakers</p>
-          <p class="prog-desc">Listen to the well known Motivational speakers from various 
+          <p class="prog-title">Speech</p>
+          <p class="prog-desc">Motivational speakers from various 
             backgrounds about the messages of self development and mindset.</p>
         </div>
         <div class="cont-flex">
           <img class="prog-img" src="./images/like.png" alt="">
-          <p class="prog-title">Acknowledgement</p>
+          <p class="prog-title">Thanks</p>
           <p class="prog-desc">Acknowledging and giving certificate for those greate speakers and motivators.</p>
         </div>
         <div class="cont-flex">
           <img class="prog-img" src="./images/closing.png" alt="">
-          <p class="prog-title">Closing ceremony</p>
-          <p class="prog-desc">Message from guest speakers and higher government officials. 
-            Announcement on the date of the next programme will be explained by the programme coordinators.</p>
+          <p class="prog-title">Closing</p>
+          <p class="prog-desc">Message from guest speakers and higher government officials.</p>
         </div>
       </div>
       <div class="prog-btn-cont">
         <a class="prog-btn" href="#">Join 2023 motivational programme</a>
+      </div>
+      <div class="see-all">
+        <a class="see-all-link" href="#">SEE THE WHOLE PROGRAME</a>
       </div>
     </section>
     <section class="moti-speakers">
@@ -117,6 +99,7 @@
           <div class="speaker-info">
             <p class="name">Sinework Taye</p>
             <p class="status">Public relation Manager at GOU UDAY VEDIC</p>
+            <div class="line-status"></div>
             <p class="speaker-desc">Sinework is a certified Professional Life Coach. He is a Content Creator at Inspire Ethiopia.
             </p>
           </div>
@@ -129,6 +112,7 @@
           <div class="speaker-info">
             <p class="name">Dr. Mihret Debebe</p>
             <p class="status">Psychiatrist and founder of mindset.</p>
+            <div class="line-status"></div>
             <p class="speaker-desc">Dr. Mihret received his Medical Degree from Addis Ababa University and 
               studied psychiatry in Saint Louis University.
             </p>
@@ -142,6 +126,7 @@
           <div class="speaker-info">
             <p class="name">Manyazewal Eshetu</p>
             <p class="status">Founder and CEO at Man Marketing.</p>
+            <div class="line-status"></div>
             <p class="speaker-desc">Personal development speaker and peak performance coach.
             </p>
           </div>
@@ -153,14 +138,38 @@
           </div>
           <div class="speaker-info">
             <p class="name">Dawit Dreams</p>
-            <p class="status">Dawit Relentless Ethiopian African Motivational Speaker and Life Success Coach.</p>
-            <p class="speaker-desc">DAWITDREAMS is a Life Success Coach and Author of the Amazing Book "ትልቅ ሕልም አለኝ" 
-              (I have a great dream). He is the founder of DawitDreams.
+            <p class="status">Life Success Coach and founder of Dawit Dreams.</p>
+            <div class="line-status"></div>
+            <p class="speaker-desc">Dawit is a Life Success Coach and Author of the Amazing Book "ትልቅ ሕልም አለኝ" 
+              (I have a great dream). 
             </p>
           </div>
         </div>
       </div>
     </section>
+    <section>
+      <div class="partners-cont">
+        <p class="partners">Partner</p>
+        <div class="line-part"></div>
+        <div class="partners-logo">
+         <img src="./images/ebs.png" alt="ebs logo" class="ebs">
+         <img src="./images/inspire.png" alt="inspire ethiopia logo" class="inspire">
+         <img src="./images/mindset.jpg" alt="mindset logo" class="mindset">
+        </div>
+    </section>
+    <footer class="foot">
+      </div>
+      <div class="rights">
+        <div class="logo-cont">
+          <img class="prog-logo" src="./images/logo.png" alt="">
+          <p class="prog-name">Ethiopian Motivational Speakers</p>
+        </div>
+        <div class="last-para">
+          <p class="right-para">2023 Greate Ethiopian Motivational Speakers.</p>
+          <p>Some Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
    </main>
 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> 

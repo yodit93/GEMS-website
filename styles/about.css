@@ -1,49 +1,339 @@
-.over-nav {
-  display: none;
+.about {
+  margin: 50px 20px 40px;
+  text-align: center;
 }
 
-.second-nav {
-  display: none;
+.openning-abt {
+  color: #ec5242;
+  font-size: 25px;
+  margin-bottom: 15px;
 }
 
+.title-abt {
+  color: #ec5242;
+  font-size: 35px;
+  margin-bottom: 50px;
+  font-weight: 900;
+}
+
+.desc-cont-abt {
+  border: 1px solid lightgray;
+}
+
+.description-abt {
+  color: #272a31;
+  line-height: 1.5;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.contact-info {
+  margin: 30px auto 5px;
+  max-width: 300px;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.email {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.competition {
+  background-color: white;
+  padding: 50px 0px;
+}
+
+.compet-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.compet-title {
+  font-size: 23px;
+  max-width: 400px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.compet-desc {
+  text-align: center;
+  max-width: 500px;
+  font-size: 14px;
+}
+
+.abt-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgray;
+  margin: 40px auto 0px;
+  width: 80%;
+  position: relative;
+}
+
+.logo-cont-comp {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+  margin-top: 15px;
+}
+
+.prog-logo-comp {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+
+.prog-name-comp {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  width: 40%;
+}
+
+.abt-date {
+  font-size: 8px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 30px;
+  position: absolute;
+  top: 74%;
+  left: 34%;
+}
+
+.back-info {
+  background-color: white;
+  padding: 30px;
+  border-top: 1px solid rgb(188, 184, 184);
+}
+
+.see-prev {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.here {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.img-cont {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.img-1 {
+  width: 90%;
+  /* height: 150px; */
+}
+
+.img-2 {
+  width: 90%;
+  height: 158px;
+  object-fit: cover;
+}
+
+.img-text-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 5%;
+  right: 5%;
+  background-color: rgba(232, 46, 46, 0.7);
+  text-align: center;
+}
+
+.p1-img1, .p1-img2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.p2-img1, .p2-img2 {
+  color: white;
+  font-size: 14px;
+}
+
+.partners-cont {
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  justify-content: center;
+}
+
+.partners {
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.line-part {
+  width: 8%;
+  height: 1px;
+  background-color: #ec5242;
+  margin-bottom: 15px;
+  margin-left: 0px;
+}
+
+.line-see {
+  width: 8%;
+  height: 1px;
+  background-color: #ec5242;
+  margin-bottom: 15px;
+  margin-left: 45%;
+}
+
+.partners-logo {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.partners-logo img {
+  height: 80px;
+}
+
+.rights {
+  background-color: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.logo-cont {
+  display: flex;
+}
+
+.prog-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.prog-name {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  width: 50px;
+}
+
+.last-para p {
+  font-size: 10px;
+}
 
 @media (min-width: 768px) {
-  .over-nav {
-    display: block;
+
+  body {
+    background-color: white;
   }
-  
-  .first-nav {
-    background-color: rgba(12, 11, 11, 0.525);
-    display: flex;
-    justify-content: flex-end;
-    /* align-items: center; */
-    padding-right: 100px;
-    height: 30px;
+  .openning-abt {
+    display: none;
   }
 
-  .nav1 {
-    list-style-type: none;
-    width: 15%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  .about-sec {
+    background-color: #f8f8f8d9;
+    padding: 75px 0px;
   }
 
-  a {
-    text-decoration: none;
+  .about {
+    margin: 0px auto;
+    width: 77%;
+  }
+
+  .title-abt {
+    font-size: 42px;
+  }
+
+  .contact-info {
+    max-width: 100%;
+  }
+
+  .abt-logo {
+    width: 41%;
+  }
+
+  .logo-cont-comp {
+    height: 120px;
+  }
+
+  .prog-name-comp {
+    font-size: 24px;
+  }
+
+  .abt-date {
+    top: 82%;
+  }
+
+  .see-prev {
+    font-size: 1.4rem;
+  }
+
+  .prev-image-cont {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-2 {
+    width: 331px;
+    height: 181px;
+  }
+
+  #img2-text {
+    left: 0;
+    right: 0;
+  }
+
+  .partners-cont {
+    display: none;
+  }
+
+  .rights {
+    margin-top: 30px;
+    background-color: #272a31;
+    height: 120px;
+  }
+
+  .prog-name {
     color: white;
   }
 
-  .fb, .twiter {
-    width: 15px;
+  .last-para p {
+    color: white;
+    font-size: 15px;
   }
 
-  .twiter {
-    width: 20px;
+  .prog-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
   }
 
-  .nav1-item {
-    font-size: 10px;
+  .prog-name {
+    font-size: 21px;
   }
-
 }
