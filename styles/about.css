@@ -1,0 +1,49 @@
+.over-nav {
+  display: none;
+}
+
+.second-nav {
+  display: none;
+}
+
+
+@media (min-width: 768px) {
+  .over-nav {
+    display: block;
+  }
+  
+  .first-nav {
+    background-color: rgba(12, 11, 11, 0.525);
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+    padding-right: 100px;
+    height: 30px;
+  }
+
+  .nav1 {
+    list-style-type: none;
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .fb, .twiter {
+    width: 15px;
+  }
+
+  .twiter {
+    width: 20px;
+  }
+
+  .nav1-item {
+    font-size: 10px;
+  }
+
+}
