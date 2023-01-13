@@ -58,7 +58,7 @@
 
 ## Video about the project
 
-- To watch a demo, click on [Video Link](https://www.loom.com/share/e484340f4e8e4d0ba440ef644d913b75)
+- To watch a demo, click on [Video Link](https://www.loom.com/share/a54d66e57db1401583e29fffd70777f5)
 
 <!-- GETTING STARTED -->
 
