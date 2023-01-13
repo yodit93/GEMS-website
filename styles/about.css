@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+
 .about {
   margin: 50px 20px 40px;
   text-align: center;
@@ -11,9 +13,10 @@
 
 .title-abt {
   color: #ec5242;
-  font-size: 35px;
+  font-size: 34px;
   margin-bottom: 50px;
   font-weight: 900;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .desc-cont-abt {

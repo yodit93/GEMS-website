@@ -58,7 +58,7 @@
 
 ## Video about the project
 
-- To watch a demo, click on [Video Link](https://www.loom.com/share/a54d66e57db1401583e29fffd70777f5)
+- To watch a demo, click on [Video Link](https://www.loom.com/share/8c461a8efb56463bbe8d9e7fc92b4f8cgit sta)
 
 <!-- GETTING STARTED -->
 
@@ -119,6 +119,7 @@ Feel free to check the [issues page](https://github.com/yodit93/First-capstone-p
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > I would like to thank [Microverseinc](https://github.com/microverseinc).
+> Thank You [Cindy Shin](https://www.behance.net/adagio07) for the template of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
