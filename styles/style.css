@@ -18,7 +18,8 @@ body {
   display: none;
 }
 
-.close-btn {
+.close-btn.show {
+  display: block;
   position: absolute;
   font-size: 2.5rem;
   color: white;
@@ -70,7 +71,7 @@ body {
 .openning {
   color: #ec5242;
   font-size: 25px;
-  margin-bottom: 15px;;
+  margin-bottom: 15px;
 }
 
 .title {
@@ -81,7 +82,7 @@ body {
 }
 
 .multicolor-text {
-  background-image: linear-gradient(to bottom, #8d1508 40%,white 5%, red 45%);
+  background-image: linear-gradient(to bottom, #8d1508 40%, white 5%, red 45%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
@@ -89,7 +90,7 @@ body {
 }
 
 .desc-cont {
-  border: 4px solid white;  
+  border: 4px solid white;
 }
 
 .description {
@@ -131,7 +132,7 @@ body {
 .cont-flex-cont {
   display: flex;
   flex-direction: column;
-  padding: 0px 20px;
+  padding: 0 20px;
   gap: 10px;
 }
 
@@ -140,7 +141,7 @@ body {
   align-items: center;
   gap: 10px;
   height: 80px;
-  background-color: rgba(99,104,111,80%);
+  background-color: rgba(99, 104, 111, 80%);
   padding: 10px;
 }
 
@@ -187,6 +188,7 @@ body {
   margin-top: 30px;
   margin-left: 20px;
 }
+
 .speakers {
   display: flex;
   flex-direction: column;
@@ -250,7 +252,7 @@ body {
 }
 
 .speaker-desc {
-  font-size: 11px; 
+  font-size: 11px;
 }
 
 .more {
@@ -262,15 +264,6 @@ body {
 
 .more span {
   margin-left: 6px;
-}
-
-.partners-cont {
-  background-color: #272a31;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 200px;
-  justify-content: center;
 }
 
 .partners {
@@ -339,7 +332,7 @@ body {
   .over-nav {
     display: block;
   }
-  
+
   .first-nav {
     background-color: rgba(12, 11, 11, 0.525);
     display: flex;
@@ -391,7 +384,7 @@ body {
 
   .logo-img {
     height: 60px;
-    width:60px;
+    width: 60px;
     border-radius: 30px;
   }
 
@@ -440,7 +433,7 @@ body {
   }
 
   .date {
-    margin-left: 0px;
+    margin-left: 0;
     font-size: 35px;
   }
 
@@ -532,8 +525,12 @@ body {
   }
 
   .partners-cont {
+    background-color: #272a31;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 280px;
+    justify-content: center;
     margin-top: 70px;
   }
 
@@ -571,5 +568,4 @@ body {
   .last-para p {
     font-size: 16px;
   }
-
 }

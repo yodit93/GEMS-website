@@ -45,7 +45,7 @@
 
 .competition {
   background-color: white;
-  padding: 50px 0px;
+  padding: 50px 0;
 }
 
 .compet-cont {
@@ -76,7 +76,7 @@
   align-items: center;
   justify-content: center;
   border: 1px solid lightgray;
-  margin: 40px auto 0px;
+  margin: 40px auto 0;
   width: 80%;
   position: relative;
 }
@@ -140,6 +140,7 @@
 
 .img-1 {
   width: 90%;
+
   /* height: 150px; */
 }
 
@@ -163,14 +164,16 @@
   text-align: center;
 }
 
-.p1-img1, .p1-img2 {
+.p1-img1,
+.p1-img2 {
   color: white;
   font-size: 20px;
   font-weight: 900;
   margin-bottom: 10px;
 }
 
-.p2-img1, .p2-img2 {
+.p2-img1,
+.p2-img2 {
   color: white;
   font-size: 14px;
 }
@@ -195,7 +198,7 @@
   height: 1px;
   background-color: #ec5242;
   margin-bottom: 15px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .line-see {
@@ -247,21 +250,21 @@
 }
 
 @media (min-width: 768px) {
-
   body {
     background-color: white;
   }
+
   .openning-abt {
     display: none;
   }
 
   .about-sec {
     background-color: #f8f8f8d9;
-    padding: 75px 0px;
+    padding: 75px 0;
   }
 
   .about {
-    margin: 0px auto;
+    margin: 0 auto;
     width: 77%;
   }
 
@@ -320,6 +323,7 @@
 
   .prog-name {
     color: white;
+    font-size: 21px;
   }
 
   .last-para p {
@@ -331,9 +335,5 @@
     width: 80px;
     height: 80px;
     border-radius: 40px;
-  }
-
-  .prog-name {
-    font-size: 21px;
   }
 }
