@@ -50,9 +50,15 @@
 
 > Link to deployed project.
 
-- [Live Demo Link](https://yodit93.github.io/My-portfolio/)
+- [Live Demo Link](https://yodit93.github.io/First-capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Video -->
+
+## Video about the project
+
+- To watch a demo, click on [Video Link]()
 
 <!-- GETTING STARTED -->
 
