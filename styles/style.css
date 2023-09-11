@@ -408,10 +408,6 @@ body {
     line-height: 0;
   }
 
-  .menu-item.text-red {
-    color: red;
-  }
-
   #campaign {
     border: 3px solid red;
     padding: 10px;
@@ -456,10 +452,12 @@ body {
     width: 20%;
     text-align: center;
     height: 200px;
+    transition: all 1s ease-in-out;
   }
 
   .cont-flex:hover {
-    border: 2px solid white;
+    width: 21%;
+    border: 2px solid white;  
   }
 
   .main-prog-title {
