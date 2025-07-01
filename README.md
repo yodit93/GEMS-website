@@ -50,7 +50,7 @@
 
 > Link to deployed project.
 
-- [Live Demo Link](https://yodit93.github.io/GEMS-website/)
+- [Live Demo Link](https://gems-website-omega.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
